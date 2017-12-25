@@ -1,4 +1,5 @@
 #include"readme.h"
+#include"reada.cpp"
 int main()
 {
 	AAA gg;
