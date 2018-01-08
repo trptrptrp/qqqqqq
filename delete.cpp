@@ -9,7 +9,6 @@ AAA *AAA::FF(struct AAA *head)
 	p5 = new BBB;
 	int i, j, k;
 	string a, b;
-	cout << "66666666" << endl;
 	cout << "Â·ÓÉÉ¾³ýÆ÷ÇëÊäÈë£º1" << '\n' << "É¾³ýÏßÇëÊäÈë£º2" << endl;
 	cin >> k;
 	if (k == 1)
