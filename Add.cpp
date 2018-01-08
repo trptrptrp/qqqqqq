@@ -1,4 +1,4 @@
-#include"readme.h"
+﻿#include"readme.h"
 AAA *AAA::EE(struct AAA *head)
 {
 	cout << "lichong343536";
