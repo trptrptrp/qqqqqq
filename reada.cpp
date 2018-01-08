@@ -1,6 +1,6 @@
 AAA *AAA::AA(struct AAA *head)
 {
-	cout << "tttttttttttttttttt" << endl;
+	cout << "tttttttttpppppttttttttt" << endl;
 	AAA *p1,*p2;
 	p1 = new AAA;
 	p2 = new AAA;
@@ -73,7 +73,7 @@ AAA *AAA::AA(struct AAA *head)
 	}
 	return head;
 }
-AAA *AAA::BB(AAA *head)//Êä³ö
+AAA *AAA::BB(AAA *head)//è¾“å‡º
 {
 	AAA *p1;
 	p1 = new AAA;
@@ -114,17 +114,17 @@ AAA *AAA::BB(AAA *head)//Êä³ö
 	}
 	return head;
 };
-AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
+AAA *AAA::DD(struct AAA *head)//æ±‚æœ€çŸ­è·¯å¾„
 {
 	AAA *p1;
 	p1 = new AAA;
 	int i, j, k, w,l;
 	string a, b;
-	cout << "ÇëÊäÈë£º(Â·ÓÉÆ÷x)" << endl;
+	cout << "è¯·è¾“å…¥ï¼š(è·¯ç”±å™¨x)" << endl;
 	cin >> a;
 	cout << endl;
 	p1 = head;
-	for (i = 0;; i++)//Ñ°ÕÒa
+	for (i = 0;; i++)//å¯»æ‰¾a
 	{
 		if (p1->a1 == a)
 		{
@@ -132,7 +132,7 @@ AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
 		}
 		else if (p1->link == NULL)
 		{
-			cout << "ÊäÈë´íÎó£¡" << endl;
+			cout << "è¾“å…¥é”™è¯¯ï¼" << endl;
 			break;
 		}
 		else
@@ -140,27 +140,27 @@ AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
 			p1 = p1->link;
 		}
 	}
-	 int d[2000][1];//³¤¶È
-	static string e[2000][1], f[2000][100];//Â·¾¶×îºóÒ»Õ¾¡¢Â·¾¶¾­¹ıÕ¾µã
+	 int d[2000][1];//é•¿åº¦
+	static string e[2000][1], f[2000][100];//è·¯å¾„æœ€åä¸€ç«™ã€è·¯å¾„ç»è¿‡ç«™ç‚¹
 	int aa, bb, cc;
 	int c;
-	for (i = 0;i<100; i++)//iÎª¼ä¸ôÕ¾Êı
+	for (i = 0;i<100; i++)//iä¸ºé—´éš”ç«™æ•°
 	{
 		BBB *p5;
 		p5 = new BBB;
-		if (i == 0)//³õÊ¼»¯£¨Ö±½ÓÏàÁÚÏÂÒ»Õ¾£©
+		if (i == 0)//åˆå§‹åŒ–ï¼ˆç›´æ¥ç›¸é‚»ä¸‹ä¸€ç«™ï¼‰
 		{
 			p5 = p1->linkk;
 			for (j = 0;; j++)
 			{
-				d[j][0] = p5->b1;//Â·¾¶µÄ³¤¶È
-				e[j][0] = p5->b2;//Â·¾¶µÄÖÕµãÕ¾
-				f[j][0] = p1->a1;//Â·¾¶ÉÏµÄÕ¾µã
+				d[j][0] = p5->b1;//è·¯å¾„çš„é•¿åº¦
+				e[j][0] = p5->b2;//è·¯å¾„çš„ç»ˆç‚¹ç«™
+				f[j][0] = p1->a1;//è·¯å¾„ä¸Šçš„ç«™ç‚¹
 				f[j][1] = p5->b2;
 				if (p5->linkk == NULL)
 				{
-					aa = 0;//Ã¿Ò»ÅúµÚÒ»¸ö
-					bb = j + 1;//ÏÂÒ»ÅúµÚÒ»¸ö
+					aa = 0;//æ¯ä¸€æ‰¹ç¬¬ä¸€ä¸ª
+					bb = j + 1;//ä¸‹ä¸€æ‰¹ç¬¬ä¸€ä¸ª
 					cc = j + 1;
 					break;
 				}
@@ -176,7 +176,7 @@ AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
 				p3 = head;
 				BBB *p6;
 				p6 = new BBB;
-				for (k = 0;; k++)//ÕÒÕ¾µã
+				for (k = 0;; k++)//æ‰¾ç«™ç‚¹
 				{
 					if (p3->a1 == e[aa][0])
 					{
@@ -194,9 +194,9 @@ AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
 					}
 				}
 				p6 = p3->linkk;
-				for (k = 0;; k++)//¼ÓÂ·¾¶
+				for (k = 0;; k++)//åŠ è·¯å¾„
 				{
-					for (l = 0;l<i+2; l++)//ÅĞ¶Ï¿É²»¿ÉÒÔ¹ı
+					for (l = 0;l<i+2; l++)//åˆ¤æ–­å¯ä¸å¯ä»¥è¿‡
 					{
 						if (p6->b2 == f[aa-1][l])
 						{
@@ -236,14 +236,14 @@ AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
 						}
 					}
 				}
-				if (aa == cc)//Ò»Åú½áÊø
+				if (aa == cc)//ä¸€æ‰¹ç»“æŸ
 				{
 					cc = bb;
 					break;
 				}
 			}
 		}
-		if (aa == bb&&bb == cc)//Çó¾¶½áÊø
+		if (aa == bb&&bb == cc)//æ±‚å¾„ç»“æŸ
 		{
 			break;
 		}
@@ -255,7 +255,7 @@ AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
 	for (j = 0;; j++)
 	{
 		c = -2;
-		for (i = 0; i < bb; i++)//±È½Ï
+		for (i = 0; i < bb; i++)//æ¯”è¾ƒ
 		{
 			if (e[i][0] == p4->a1&&c < 0)
 			{
@@ -274,9 +274,9 @@ AAA *AAA::DD(struct AAA *head)//Çó×î¶ÌÂ·¾¶
 		else
 		{
 			cout << f[c][0] << "  " << e[c][0];
-			cout << "  ¾àÀë£º";
+			cout << "  è·ç¦»ï¼š";
 			cout << d[c][0] << endl;
-			/*for (k = 0;; k++)//Â·¾¶
+			/*for (k = 0;; k++)//è·¯å¾„
 			{
 				cout << f[c][k] << "   ";
 				if (f[c][k] == p4->a1)
