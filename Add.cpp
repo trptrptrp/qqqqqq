@@ -1,8 +1,7 @@
 ﻿#include"readme.h"
 AAA *AAA::EE(struct AAA *head)
 {
-	cout << "lichong " << endl;
-	cout << "lichong343536";
+	
 	AAA *p1, *p2;
 	p1 = new AAA;
 	p2 = new AAA;
