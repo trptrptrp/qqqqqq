@@ -1,4 +1,4 @@
- AAA *AAA::AA(struct AAA *head)
+AAA *AAA::AA(struct AAA *head)
 {
 	AAA *p1,*p2;
 	p1 = new AAA;
