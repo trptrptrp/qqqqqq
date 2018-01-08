@@ -100,7 +100,7 @@ AAA *AAA::FF(struct AAA *head)
 				p1 = p1->link;
 			}
 		}
-		cout << "666" << endl;
+		cout << "删除成功！" << endl;
 		p6 = new BBB;
 		if (p1->a1 == a)
 		{
@@ -130,7 +130,7 @@ AAA *AAA::FF(struct AAA *head)
 				}
 			}
 		}
-		cout << "666" << endl;
+		cout << "删除成功！" << endl;
 		p1 = new AAA;
 		p5 = new BBB;
 		p6 = new BBB;
