@@ -1,6 +1,7 @@
 #include"readme.h"
 AAA *AAA::EE(struct AAA *head)
 {
+	cout << "lichong343536";
 	AAA *p1, *p2;
 	p1 = new AAA;
 	p2 = new AAA;
@@ -10,7 +11,7 @@ AAA *AAA::EE(struct AAA *head)
 	int i, j, k;
 	int c;
 	string a, b;
-	cout << "Ìí¼ÓÂ·ÓÉÆ÷ÇëÊäÈë£º1" << '\n' << "Ìí¼ÓÏßÇëÊäÈë£º2" << endl;
+	cout << "æ·»åŠ è·¯ç”±å™¨è¯·è¾“å…¥ï¼š1" << '\n' << "æ·»åŠ çº¿è¯·è¾“å…¥ï¼š2" << endl;
 	cin >> k;
 	if (k == 1)
 	{
@@ -22,12 +23,12 @@ AAA *AAA::EE(struct AAA *head)
 				break;
 			}
 		}
-		cout << "ÇëÊäÈëÂ·ÓÉÆ÷ÐÅÏ¢£¨Â·ÓÉÆ÷x£©" << endl;
+		cout << "è¯·è¾“å…¥è·¯ç”±å™¨ä¿¡æ¯ï¼ˆè·¯ç”±å™¨xï¼‰" << endl;
 		cin >> p2->a1;
 		for (i = 0;; i++)
 		{
 			p6 = new BBB;
-			cout << "ÇëÊäÈëÁ´½ÓµÄÐÅÏ¢£¨³¤¶È Á¬½ÓµÄÂ·ÓÉÆ÷x£©(ÊäÈë0½áÊø)" << endl;;
+			cout << "è¯·è¾“å…¥é“¾æŽ¥çš„ä¿¡æ¯ï¼ˆé•¿åº¦ è¿žæŽ¥çš„è·¯ç”±å™¨xï¼‰(è¾“å…¥0ç»“æŸ)" << endl;;
 			if (i == 0)
 			{
 				cin >> p5->b1;
@@ -68,7 +69,7 @@ AAA *AAA::EE(struct AAA *head)
 				}
 				else if (p1->link == NULL)
 				{
-					cout << "ÊäÈë´íÎó£¡" << endl;
+					cout << "è¾“å…¥é”™è¯¯ï¼" << endl;
 					break;
 				}
 				else
@@ -107,7 +108,7 @@ AAA *AAA::EE(struct AAA *head)
 	}
 	if (k == 2)
 	{
-		cout << "ÇëÊäÈëÆðÊ¼Â·ÓÉÆ÷ºÍÖÕµãÂ·ÓÉÆ÷£¨Â·ÓÉÆ÷a Â·ÓÉÆ÷b)" << endl;
+		cout << "è¯·è¾“å…¥èµ·å§‹è·¯ç”±å™¨å’Œç»ˆç‚¹è·¯ç”±å™¨ï¼ˆè·¯ç”±å™¨a è·¯ç”±å™¨b)" << endl;
 		cin >> a >> b;
 		for (i = 0;; i++)
 		{
@@ -117,7 +118,7 @@ AAA *AAA::EE(struct AAA *head)
 			}
 			else if (p1->link == NULL)
 			{
-				cout << "ÊäÈë´íÎó£¡" << endl;
+				cout << "è¾“å…¥é”™è¯¯ï¼" << endl;
 				break;
 			}
 			else
@@ -125,7 +126,7 @@ AAA *AAA::EE(struct AAA *head)
 				p1 = p1->link;
 			}
 		}
-		cout << "ÇëÊäÈë³¤¶È£º" << endl;
+		cout << "è¯·è¾“å…¥é•¿åº¦ï¼š" << endl;
 		cin >> c;
 		if (p1->a1 == a)
 		{
@@ -154,7 +155,7 @@ AAA *AAA::EE(struct AAA *head)
 			}
 			else if (p1->link == NULL)
 			{
-				cout << "ÊäÈë´íÎó£¡" << endl;
+				cout << "è¾“å…¥é”™è¯¯ï¼" << endl;
 				break;
 			}
 			else
