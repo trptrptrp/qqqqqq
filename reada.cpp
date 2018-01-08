@@ -1,5 +1,6 @@
 AAA *AAA::AA(struct AAA *head)
 {
+	cout << "tttttttttttttttttt" << endl;
 	AAA *p1,*p2;
 	p1 = new AAA;
 	p2 = new AAA;
@@ -7,7 +8,7 @@ AAA *AAA::AA(struct AAA *head)
 	p5=new BBB;
 	p6=new BBB; 
 	int i,j;
-	ifstream ff("C:\\Users\\trp\\Desktop\\¼ÆËã»úÍøÂçÊµÏ°\\qqqqqq\\luyou.txt", ios::in);
+	ifstream ff("luyou.txt", ios::in);
 	if (!ff)
 	{
 		cout << "File1 open error!\n";
