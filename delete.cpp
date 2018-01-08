@@ -9,6 +9,7 @@ AAA *AAA::FF(struct AAA *head)
 	p5 = new BBB;
 	int i, j, k;
 	string a, b;
+	cout << "66666666" << endl;
 	cout << "路由删除器请输入：1" << '\n' << "删除线请输入：2" << endl;
 	cin >> k;
 	if (k == 1)
@@ -100,7 +101,6 @@ AAA *AAA::FF(struct AAA *head)
 				p1 = p1->link;
 			}
 		}
-		cout << "删除成功！" << endl;
 		p6 = new BBB;
 		if (p1->a1 == a)
 		{
@@ -130,7 +130,6 @@ AAA *AAA::FF(struct AAA *head)
 				}
 			}
 		}
-		cout << "删除成功！" << endl;
 		p1 = new AAA;
 		p5 = new BBB;
 		p6 = new BBB;
@@ -180,6 +179,7 @@ AAA *AAA::FF(struct AAA *head)
 			}
 		}
 	}
+
 	return head;
 };
 
