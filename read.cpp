@@ -1,7 +1,7 @@
 #include"readme.h"
 #include"reada.cpp"
-#include"luyou.cpp"
-#include"luyou1.cpp"
+#include"delete.cpp"
+#include"Add.cpp"
 int main()
 {
 	AAA gg;

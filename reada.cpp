@@ -1,4 +1,4 @@
-AAA *AAA::AA(struct AAA *head)
+﻿AAA *AAA::AA(struct AAA *head)
 {
 	cout << "邰瑞普55555" << endl;
 	AAA *p1,*p2;
