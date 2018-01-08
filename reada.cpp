@@ -1,6 +1,6 @@
 AAA *AAA::AA(struct AAA *head)
 {
-	cout << "tttttttttpppppttttttttt" << endl;
+	cout << "邰瑞普" << endl;
 	AAA *p1,*p2;
 	p1 = new AAA;
 	p2 = new AAA;
